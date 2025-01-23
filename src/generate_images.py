@@ -153,17 +153,17 @@ class GenerateImages:
         output = sub(pattern="{{ views }}", repl=views, string=output)
 
         forks: str = f"{await self.__stats.forks:,}"
-        forks = forks if len(str(forks)) < TXT_SPACER_MAX_LEN else add_unit(forks)
-        stars: str = f"{await self.__stats.stargazers:,}"
-        stars = stars if len(str(stars)) < TXT_SPACER_MAX_LEN else add_unit(stars)
-        forks_and_stars: str = (
-            forks
-            + " " * max(1, TXT_SPACER_MAX_LEN - len(str(forks)) + 1)
-            + "|   "
-            + stars
-        )
         output = sub(
-            pattern="{{ forks_and_stars }}", repl=forks_and_stars, string=output
+            pattern="{{ forks }}", 
+            repl=forks, 
+            string=output
+        )
+        
+        starsgazers: str = f"{await self.__stats.stargazers:,}"
+        output = sub(
+            pattern="{{ stargazers }}", 
+            repl=stargazers, 
+            string=output
         )
 
         contributions: str = f"{await self.__stats.total_contributions:,}"
