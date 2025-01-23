@@ -159,7 +159,7 @@ class GenerateImages:
             string=output
         )
         
-        starsgazers: str = f"{await self.__stats.stargazers:,}"
+        stargazers: str = f"{await self.__stats.stargazers:,}"
         output = sub(
             pattern="{{ stargazers }}", 
             repl=stargazers, 
