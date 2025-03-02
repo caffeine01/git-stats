@@ -154,7 +154,7 @@
 
           <div>
             <span class="progress">
-              <span style="background-color: #A97BFF;width: 69.23744%;" class="progress-item"></span><span style="background-color: #7e7eff;width: 12.15936%;" class="progress-item"></span><span style="background-color: #178600;width: 7.08278%;" class="progress-item"></span><span style="background-color: #89e051;width: 6.36510%;" class="progress-item"></span><span style="background-color: #e34c26;width: 2.53346%;" class="progress-item"></span><span style="background-color: #663399;width: 2.19294%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 0.42447%;" class="progress-item"></span><span style="background-color: #6E4C13;width: 0.00446%;" class="progress-item"></span>
+              <span style="background-color: #A97BFF;width: 69.07817%;" class="progress-item"></span><span style="background-color: #7e7eff;width: 12.36142%;" class="progress-item"></span><span style="background-color: #178600;width: 7.06649%;" class="progress-item"></span><span style="background-color: #89e051;width: 6.35045%;" class="progress-item"></span><span style="background-color: #e34c26;width: 2.52763%;" class="progress-item"></span><span style="background-color: #663399;width: 2.18789%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 0.42350%;" class="progress-item"></span><span style="background-color: #6E4C13;width: 0.00445%;" class="progress-item"></span>
             </span>
           </div>
 
@@ -176,7 +176,7 @@
                         Kotlin
                     </span>
                     <span class="percent">
-                        69.24%
+                        69.08%
                     </span>
             </li>
             <li style="animation-delay: 150ms;">
@@ -195,7 +195,7 @@
                         Nix
                     </span>
                     <span class="percent">
-                        12.16%
+                        12.36%
                     </span>
             </li>
             <li style="animation-delay: 300ms;">
@@ -214,7 +214,7 @@
                         C#
                     </span>
                     <span class="percent">
-                        7.08%
+                        7.07%
                     </span>
             </li>
             <li style="animation-delay: 450ms;">
@@ -233,7 +233,7 @@
                         Shell
                     </span>
                     <span class="percent">
-                        6.37%
+                        6.35%
                     </span>
             </li>
             <li style="animation-delay: 600ms;">
